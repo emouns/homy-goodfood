@@ -1,0 +1,20 @@
+  // FICHIER PRINCIPAL - HOMYFOOD //
+// 1. utils 
+ @import 'utils/variables'; 
+ @import 'utils/mixins'; 
+ // 2. Base (reset et typography)//
+ @import 'base/reset';
+ @import 'base/typography'; 
+ // 3. Layouts (structure générale) //
+ @import 'layouts/header';
+ @import 'layouts/location';
+ @import 'layouts/footer'; 
+ @import 'layouts/container'; 
+ // 4. Components//
+ @import 'components/buttons'; 
+ @import 'components/cards';
+ @import 'components/heart';
+ @import 'components/loader'; 
+ // 5. Pages (styles spécifiques aux pages) @import//
+ @import 'pages/home';
+ @import 'pages/menu';

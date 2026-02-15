@@ -1,0 +1,21 @@
+// LOCATION - HOMYFOOD //
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: $color-grey-2;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+ 
+  &__icon {
+    color: $color-grey-3;
+    font-size: $font-size-base;
+  }
+ 
+  &__text {
+    color: $color-grey-3;
+    font-size: $font-size-base;
+    font-weight: $font-weight-medium;
+  }
+}

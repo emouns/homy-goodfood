@@ -1,0 +1,22 @@
+// CONTAINER - HOMYFOOD
+// ===================================
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 ;
+ 
+  @include tablet {
+    padding: 0 $spacing-xl;
+  }
+}
+.section {
+  padding: $spacing-xl 0;
+ 
+  @include desktop {
+    padding: $spacing-xxl 0;
+  }
+ 
+  &__title {
+    margin-bottom: $spacing-lg;
+  }
+} 

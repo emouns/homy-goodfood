@@ -1,0 +1,71 @@
+// PAGE HOME - HOMYFOOD //
+
+// === HERO ===
+.hero {
+  padding: $spacing-xl $spacing-md;
+  text-align: center;
+  background-color: $color-grey-1;
+
+  &__title {
+    margin-bottom: $spacing-md;
+    font-size: $spacing-lg;
+    @media (min-width: $breakpoint-tablet) {
+      font-size: 55px;
+    }
+  }
+
+  &__subtitle {
+    color: $color-grey-4;
+    font-size: $font-size-md;
+    margin-bottom: $spacing-lg;
+    @media (min-width: $breakpoint-tablet) {
+      font-size: $font-size-lg;
+    }
+  }
+
+}
+
+// === FONCTIONNEMENT ===
+.functioning {
+  padding: $spacing-xxl $spacing-md;
+
+  &__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-xl;
+
+    @media (min-width: $breakpoint-tablet) {
+      flex-direction: row;
+    }
+  }
+}
+
+// === RESTAURANTS (GRILLE 2 COLONNES) ===
+.restaurants {
+  padding: $spacing-xxl 0;
+  background-color: $color-grey-1;
+
+  &__grid {
+    display: grid;
+    gap: $spacing-sm;
+
+    .restaurant-card__heart {
+      position: absolute;
+      right: $spacing-lg;
+      bottom: $spacing-lg;
+    }
+
+    // GRILLE 2 COLONNES sur TABLET et plus
+    @media (min-width: $breakpoint-tablet) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include desktop {
+      gap: 7%;
+    }
+  }
+
+}
