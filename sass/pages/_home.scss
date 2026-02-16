@@ -8,7 +8,7 @@
 
   &__title {
     margin-bottom: $spacing-md;
-    font-size: $spacing-lg;
+    font-size: $font-size-xl;
     @media (min-width: $breakpoint-tablet) {
       font-size: 55px;
     }
