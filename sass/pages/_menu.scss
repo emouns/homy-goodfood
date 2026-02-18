@@ -36,11 +36,11 @@
     @include flex-center;
     padding: 40px 0;
     @media (min-width: $breakpoint-tablet) {
-      @include flex-center;       // ← point-virgule ajouté ✓
+      @include flex-center;       
     } 
   }
 
-}                                 // ← .menu se ferme ici ✓
+}                                 
 
 .menu-section {
   margin-bottom: $spacing-xxl;
@@ -60,6 +60,6 @@
     display: flex;
     flex-direction: column;
     gap: $spacing-md;
-  }                               // ← &__list se ferme ici ✓
+  }                              
 
 } 

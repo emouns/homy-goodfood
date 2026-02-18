@@ -22,15 +22,27 @@
   }
  
   &--large {
-    padding: $spacing-sm ($spacing-sm * 1.5);
-    font-size: $font-size-sm;
+    padding: $spacing-sm ($spacing-xs * 3);
+    font-size: $font-size-md;
   }
   @media (min-width: 768px) {
-    padding: $spacing-lg ($spacing-xl * 3.5); 
-    font-size: $font-size-md;                 
+    padding: $spacing-md ($spacing-sm * 2); 
+    font-size: $font-size-lg;                 
    
-    margin: 0 auto; 
+    
   }
+  &--menu {
+        padding: $spacing-sm ($spacing-xs * 3);
+        font-size: $font-size-md;
+        width: 100%;
+        max-width: 200px;
+        
+        @media (min-width: 768px) {
+            padding: $spacing-md ($spacing-lg * 1);
+            font-size: $font-size-lg;
+            max-width: 300px;
+        }
+    }
 }
 .function-btn {
   position: relative;
