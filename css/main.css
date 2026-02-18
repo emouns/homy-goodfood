@@ -127,7 +127,7 @@ logo {
 .footer__link {
   display: flex;
   align-items: center;
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   gap: 1rem;
   color: #FFFFFF;
   transition: all 0.3s ease-in-out;
@@ -147,7 +147,7 @@ logo {
     min-height: 150px;
   }
   .footer__logo {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     margin-bottom: 0;
     margin-left: 100px;
     margin-right: 1%;
@@ -158,8 +158,8 @@ logo {
   .footer__list {
     display: flex;
     flex-direction: row;
-    gap: 20px;
-    margin-right: 50px;
+    gap: 10px;
+    margin-right: 40px;
     margin-left: auto;
   }
   .footer__item {
