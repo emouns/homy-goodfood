@@ -254,6 +254,7 @@ logo {
   display: flex;
   justify-content: center;
   align-items: center;
+  left: -4px;
   width: 24px;
   height: 24px;
   background-color: #9356DC;
@@ -549,7 +550,7 @@ logo {
 }
 
 .functioning {
-  padding: 3rem 1.5rem;
+  padding: 2.5rem;
 }
 .functioning__list {
   list-style: none;

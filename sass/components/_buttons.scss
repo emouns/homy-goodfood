@@ -61,6 +61,7 @@
     position: absolute;
    left: -12px;
     @include flex-center;
+    left: -4px;
     width: 24px;
     height: 24px;
     background-color: $color-primary;
