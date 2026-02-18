@@ -159,7 +159,7 @@ logo {
     display: flex;
     flex-direction: row;
     gap: 30px;
-    margin-right: 40px;
+    margin-right: 30px;
     margin-left: auto;
   }
   .footer__item {
