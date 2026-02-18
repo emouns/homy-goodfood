@@ -158,7 +158,7 @@ logo {
   .footer__list {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 30px;
     margin-right: 40px;
     margin-left: auto;
   }
