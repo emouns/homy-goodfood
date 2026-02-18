@@ -9,7 +9,7 @@
   @include flex-center;
   background-color: rgba($color-white, 0.9);
   z-index: 9999;
-  animation: loader-disappear 3s ease-in-out forwards;
+  animation: loader-disappear 2s ease-in-out forwards;
  
   &__spinner {
     width: 60px;
